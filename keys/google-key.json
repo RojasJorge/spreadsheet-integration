@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "seraphic-ripsaw-185502",
+  "private_key_id": "85a3f157d16e0c7e3e61cb7ff8926b64171c759c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcqX3cEX8NrvQo\nwYJalNpkVHI2opyBW2u0dr5vxbrhuwjSUW5LZdKDNFwZU4mG1L6wCN6Pa/cptxCV\n5X73l1SzYemmB9uXv3iPRKJkBUReuL67NDhRlreqlilXXOgLPaGTbNGYjd5GvAuW\nkrwdPzVKyAva+grDwd7rAIJM70yN4NW/AkDioyHVjSMwaJKubReXhYOWGQR/9lzt\nJPk0r5iejYgHq2RZXMEwto+9TeYvlISxNdP/BCYlU0LB5T/a3LFh2EoyEnV97luj\n6CchZPJaqpMh5+RkHk+xL9VZGJfiS+DFv3OlwDGA+gE6t0n11c1CCWhWKsc6MIoh\nL1tWzAINAgMBAAECggEACyOKLSz77Sim/hSwnBp2AMkLf+sK+/Ottu0klVdVpPXw\nTs+aAffYndNrj8K6B0KfgprcA0Dnt+UcEvkEBQMQXULEzOMKKHmboB3Olb53UlHA\nnQoYirPRPyz31sdjlkes65h7ZxhIP2lYK2hqUw6hBc6d3JaxKusTMekzaqdMxb+b\nAJo/rKsZnBWr1DnBF5+Y4Nms4fGx0LZTbYHHR09MJzh5ffc8cKbNjAx1PC8P4Y28\nOVMJXFULW+3ESeugPRj1va/vKhBcVqpXKt3Qt8ia/zC+5Frq2/lGLAjJ//cHUjoc\nafIrnUm7PDEV6MUfgxjBwQ5haW6lAzCgjL30P6hXAQKBgQD1XwGyGsVR4748iHhZ\nQeXhJeCGqw6zpvzwdKjQ+dx+nhiLhOWQM+i3PSg6CCL3dWeRuDFqO9eOnG6LsMHv\nMRHyhr1G2PCMMm9Cn6OT8RwlK4QBqldY9vUemdMa9D5Fv58y8u6aEkBd5ss7L330\n7CysqlFH58CzFJH3hZHzRkZ5DQKBgQDmOHqlREakzxmP8BJTR3KIOMOr3snf/iBR\nHA4i2Eqt753O9OTdxQ4Im9LL0h/XrX7HXPmansD6HzLkoXF1et0UCtsvJY4jVGGv\noBQWolcYdErVtd9DuIVctgSvCazHT6iCQLsZzoPoHVImGxW26MqCjcPkKjx3Uz6t\nblOalidtAQKBgQCM/uH/kSiPrNmU+SqGx7orzVMer07MZwlztuWG5/0O+RPLoDs1\nyM5R9R+XcTN+lQVFk905WVe9SCCxvolCRCU3Arvi6SgYt6Z9VzRs/6CXr1C0kEiP\nA6HIysWm+HCMLddyNGxtNk2sZ8GiqeCsC8aEFX6NXhu6C/jwjd1XOKuoRQKBgGx+\nb2YVIAmpQ82ugKRYhmQmBCiqDI8P7uDqjMrlDYSc6MzQYk8U/4EVFilRtAnrTFTd\nvw+cAyucqlpOru6DYU6BszurwilqKcMfeHgWN19h5qaCWF5MxiSj7t8iexdOtgX0\nRXhq94Ta1Iz6tKgHWvBdqNSNBwPg6ifHV4UBgEEBAoGBAJ+nIGAlFRDEeatFGxU3\nNd6d90Aqf6l+3Dw1dAkjf+RVMheprgYJmNRTO2cqBoP699pbLJ8UGmoYDMCkHeB8\nbhCWFCofYgwqBcq+vZ8BOr4d055WxPwLP95JCUPqhi7ZlvorPqez8WOPv79G8DnV\nN5L6oAtoVyd42BiEGLEZaDCj\n-----END PRIVATE KEY-----\n",
+  "client_email": "hapi-spreadsheet@seraphic-ripsaw-185502.iam.gserviceaccount.com",
+  "client_id": "118427407653851174735",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hapi-spreadsheet%40seraphic-ripsaw-185502.iam.gserviceaccount.com"
+}
