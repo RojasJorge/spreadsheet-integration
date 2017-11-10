@@ -2,6 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const google = require('googleapis');
 const googleAuth = require('google-auth-library');
+const _ = require('lodash')
 
 // If modifying these scopes, delete your previously saved credentials
 // at ~/.credentials/sheets.googleapis.com-nodejs-quickstart.json
@@ -95,7 +96,7 @@ const storeToken = (token) => {
  */
 
 
-const ReadS = (response, reply) => {
+const ReadS = (request, reply) => {
     fs.readFile('./keys/client_id.json', function processClientSecrets(err, content) {
         if (err) {
             console.log('Error loading client secret file: ' + err);
@@ -122,6 +123,29 @@ const ReadS = (response, reply) => {
                         rows
                     })
                 } else {
+                    console.log(rows)
+                    if (request.query) {
+                        console.log(request.query)
+                        const { email, team, name } = request.query
+                        if (name) {
+                            rows = _.filter(rows, (o) => {
+                                console.log(o)
+                                return o[0] == name
+                            })
+                        }
+                        if (email) {
+                            rows = _.filter(rows, (o) => {
+                                console.log(o)
+                                return o[1] == email
+                            })
+                        }
+                        if (team) {
+                            rows = _.filter(rows, (o) => {
+                                console.log(o)
+                                return o[2] == team
+                            })
+                        }
+                    }
                     return reply({
                         status: 'success',
                         rows
