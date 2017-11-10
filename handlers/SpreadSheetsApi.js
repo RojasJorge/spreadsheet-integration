@@ -113,7 +113,9 @@ const ReadS = (request, reply) => {
             }, function(err, response) {
                 if (err) {
                     console.log('The API returned an error: ' + err);
-                    return;
+                    return reply({
+                        err
+                    });
                 }
                 var rows = response.values;
                 if (rows.length == 0) {
